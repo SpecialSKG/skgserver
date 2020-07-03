@@ -12,7 +12,7 @@
                 <li><a href="{{ route('novedades') }}">Novedades</a></li>
                 <li class="active"><a href="{{ route('servicios') }}">Servicios</a></li>
                 <li><a href="{{ route('portafolio') }}">Portafolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="{{ route('contacto') }}">Contacto</a></li>
             </ul>
         </nav>
 
