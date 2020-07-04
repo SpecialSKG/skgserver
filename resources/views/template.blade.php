@@ -13,8 +13,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{  asset('img/favicon.png') }}" rel="icon">
-    <link href="{{  asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <link href="{{  URL::asset('img/SKG-LOGO-PNG2.png') }}" rel="icon">
+    <link href="{{  URL::asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -22,15 +22,15 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{  asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{  asset('vendor/icofont/icofont.min.css') }}" rel="stylesheet">
-    <link href="{{  asset('vendor/remixicon/remixicon.css') }}" rel="stylesheet">
-    <link href="{{  asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{  asset('vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-    <link href="{{  asset('vendor/venobox/venobox.css') }}" rel="stylesheet">
+    <link href="{{  URL::asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{  URL::asset('vendor/icofont/icofont.min.css') }}" rel="stylesheet">
+    <link href="{{  URL::asset('vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+    <link href="{{  URL::asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{  URL::asset('vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{  URL::asset('vendor/venobox/venobox.css') }}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="{{  asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{  URL::asset('css/style.css') }}" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -49,7 +49,7 @@
 
         .fondo1 {
             /*height: 100vh;*/
-            background-image: url("{{  asset('img/fondo.jpg') }}") !important;
+            background-image: url("{{  URL::asset('img/fondo.jpg') }}") !important;
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
@@ -264,15 +264,15 @@
     </footer>
 
     <!-- Vendor JS Files -->
-    <script src="{{ asset('vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js')}}"></script>
-    <script src="{{ asset('vendor/php-email-form/validate.js')}}"></script>
-    <script src="{{ asset('vendor/waypoints/jquery.waypoints.min.js')}}"></script>
-    <script src="{{ asset('vendor/counterup/counterup.min.js')}}"></script>
-    <script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js')}}"></script>
-    <script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-    <script src="{{ asset('vendor/venobox/venobox.min.js')}}"></script>
+    <script src="{{ URL::asset('vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{ URL::asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ URL::asset('vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+    <script src="{{ URL::asset('vendor/php-email-form/validate.js')}}"></script>
+    <script src="{{ URL::asset('vendor/waypoints/jquery.waypoints.min.js')}}"></script>
+    <script src="{{ URL::asset('vendor/counterup/counterup.min.js')}}"></script>
+    <script src="{{ URL::asset('vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ URL::asset('vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ URL::asset('vendor/venobox/venobox.min.js')}}"></script>
 
     <!-- Template Main JS File -->
     <script src="{{ asset('js/main.js')}}"></script>
