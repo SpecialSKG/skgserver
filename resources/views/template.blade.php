@@ -256,9 +256,9 @@
 
         <div class="content flex">
             <div class="container my-auto">
-                <div class="copyright text-center my-auto">&copy; Copyright <?php //echo date('Y')
-                                                                    ?>
-                    <span class="red-text">by SI_04 PHP</span>
+                <div class="copyright text-center my-auto">
+                    <span style="color: #000">&copy; Copyright 2020</span>
+                    <span style="color: #c10000">Todos los derechos reservados.</span>
                 </div>
             </div>
     </footer>

@@ -39,10 +39,12 @@
                 </div>
                 <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left"> -->
                 <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-                    <h3>UI/UX &amp; Graphic Designer</h3>
+                    <h3>SkyGround Team</h3>
                     <p class="font-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magna aliqua.
+                        Un grupo de amigos que decidio dar un paso mas alla y poco a poco se fue formando una comunidad
+                        con miembros de diferentes paises.
                     </p>
+                    <!--
                     <div class="row">
                         <div class="col-lg-6">
                             <ul>
@@ -63,12 +65,11 @@
                             </ul>
                         </div>
                     </div>
+                    -->
                     <p>
-                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci
-                        omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                        Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque
-                        neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni
-                        laudantium dolores.
+                        Evoluciono de un servidor anterior de MC y poco a poco fue tomando forma y haciendo que cresca
+                        de manera
+                        progresiva mejorando los aspectos en la forma que podamos.
                     </p>
                 </div>
             </div>
@@ -77,7 +78,7 @@
         <!-- End About Me -->
 
         <!-- ======= Counts ======= -->
-        <div class="counts container">
+        <!-- <div class="counts container">
 
             <div class="row">
 
@@ -115,11 +116,11 @@
 
             </div>
 
-        </div>
+        </div>-->
         <!-- End Counts -->
 
         <!-- ======= Skills  ======= -->
-        <div class="skills container">
+        <!--<div class="skills container">
 
             <div class="section-title">
                 <h2>Skills</h2>
@@ -185,89 +186,81 @@
 
             </div>
 
-        </div>
+        </div>-->
         <!-- End Skills -->
 
         <!-- ======= Interests ======= -->
         <div class="interests container">
 
             <div class="section-title">
-                <h2>Interests</h2>
+                <h2>Paises de miembros</h2>
             </div>
 
             <div class="row">
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="{{ URL::asset('ico/unitedstates_flags_flag_9093.ico') }}" alt="">
+                        <h3>Estados Unidos</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="{{ URL::asset('ico/Mexico_flags_flag_9191.ico') }}" alt="">
+                        <h3>Mexico</h3>
+                    </div>
+                </div>
+
                 <div class="col-lg-3 col-md-4">
-                    <div class="icon-box">
-                        <i class="ri-store-line" style="color: #ffbb2c;"></i>
-                        <h3>Lorem Ipsum</h3>
+                    <div class="icon-box align-center">
+                        <img src="{{ URL::asset('ico/Guatemala_flags_flag_9239.ico') }}" alt="">
+                        <h3>Guatemala</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-                        <h3>Dolor Sitema</h3>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box align-center">
+                        <img src="{{ URL::asset('ico/ElSalvador_flags_flag_9267.ico') }}" alt="">
+                        <h3>El Salvador</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-                        <h3>Sed perspiciatis</h3>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box align-center">
+                        <img src="{{ URL::asset('ico/Honduras_flags_flag_9235.ico') }}" alt="">
+                        <h3>Honduras</h3>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
                     <div class="icon-box">
-                        <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                        <h3>Magni Dolores</h3>
+                        <img src="{{ URL::asset('ico/Colombia_flags_flag_9283.ico') }}" alt="">
+                        <h3>Colombia</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 mt-4">
+
+                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
                     <div class="icon-box">
-                        <i class="ri-database-2-line" style="color: #47aeff;"></i>
-                        <h3>Nemo Enim</h3>
+                        <img src="{{ URL::asset('ico/Ecuador_flags_flag_9268.ico') }}" alt="">
+                        <h3>Ecuador</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 mt-4">
+
+                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
                     <div class="icon-box">
-                        <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-                        <h3>Eiusmod Tempor</h3>
+                        <img src="{{ URL::asset('ico/Bolivia_flags_flag_9306.ico') }}" alt="">
+                        <h3>Bolivia</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-                        <h3>Midela Teren</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-                        <h3>Pira Neve</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-anchor-line" style="color: #b2904f;"></i>
-                        <h3>Dirada Pack</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-disc-line" style="color: #b20969;"></i>
-                        <h3>Moton Ideal</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-base-station-line" style="color: #ff5828;"></i>
-                        <h3>Verdo Park</h3>
-                    </div>
-                </div>
+
+                <!--
                 <div class="col-lg-3 col-md-4 mt-4">
                     <div class="icon-box">
                         <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
                         <h3>Flavor Nivelanda</h3>
                     </div>
                 </div>
+                -->
             </div>
 
         </div>
@@ -285,11 +278,10 @@
                 <div class="testimonial-item">
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Las cosas no tienen por qué cambiar el mundo para ser importantes (Steve Jobs)
+                        Las cosas no tienen por qué cambiar el mundo para ser importantes. (Steve Jobs)
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="https://minotar.net/avatar/JamesSKG.png"
-                        class="testimonial-img" alt="">
+                    <img src="https://minotar.net/avatar/JamesSKG.png" class="testimonial-img" alt="">
                     <h3>James SKG</h3>
                     <h4>Ceo &amp; Founder</h4>
                 </div>
@@ -297,55 +289,49 @@
                 <div class="testimonial-item">
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Una vez aceptamos nuestros límites, vamos más allá de estos (Albert Einstein)
+                        Una vez aceptamos nuestros límites, vamos más allá de estos. (Albert Einstein)
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <!--<img src="{{ URL::asset('img/testimonials/testimonials-2.jpg') }}"-->
-                    <img src="https://minotar.net/avatar/SpecialSKG.png"
-                        class="testimonial-img" alt="">
+                    <img src="https://minotar.net/avatar/SpecialSKG.png" class="testimonial-img" alt="">
                     <h3>Special SKG</h3>
+                    <h4>Programmer</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        El momento que da más miedo es siempre justo antes de empezar.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <!--<img src="{{ URL::asset('img/testimonials/testimonials-2.jpg') }}"-->
+                    <img src="https://minotar.net/avatar/RodriSKG.png" class="testimonial-img" alt="">
+                    <h3>Rodri SKG</h3>
                     <h4>Designer</h4>
                 </div>
 
                 <div class="testimonial-item">
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
-                        minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                        No importa lo que pase, siempre tendrás una historia que contar.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="{{ URL::asset('img/testimonials/testimonials-3.jpg') }}"
-                        class="testimonial-img" alt="">
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
+                    <!--<img src="{{ URL::asset('img/testimonials/testimonials-2.jpg') }}"-->
+                    <img src="https://minotar.net/avatar/xJavierx503.png" class="testimonial-img" alt="">
+                    <h3>Javier SKG</h3>
+                    <h4>Programmer</h4>
                 </div>
 
                 <div class="testimonial-item">
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
-                        velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
-                        veniam.
+                        Rara vez nos damos cuenta que estamos rodeados por lo extraordinario.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="{{ URL::asset('img/testimonials/testimonials-4.jpg') }}"
-                        class="testimonial-img" alt="">
-                    <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
-                </div>
-
-                <div class="testimonial-item">
-                    <p>
-                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-                        culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-                        quid.
-                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="{{ URL::asset('img/testimonials/testimonials-5.jpg') }}"
-                        class="testimonial-img" alt="">
-                    <h3>John Larson</h3>
-                    <h4>Entrepreneur</h4>
+                    <!--<img src="{{ URL::asset('img/testimonials/testimonials-2.jpg') }}"-->
+                    <img src="https://minotar.net/avatar/Razorlance.png" class="testimonial-img" alt="">
+                    <h3>Razor SKG</h3>
+                    <h4>Designer</h4>
                 </div>
 
             </div>
@@ -354,6 +340,7 @@
         <!-- End Testimonials  -->
 
     </section>
+
 
 </div>
 

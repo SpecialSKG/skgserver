@@ -68,6 +68,15 @@
                         <p>+1 5589 55488 55</p>
                     </div>
                 </div>
+
+                <div class="col-md-6 mt-4 d-flex">
+                    <center>
+                        <div class="info-box">
+                            <iframe src="https://discordapp.com/widget?id=361994595653124097&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+                        </div>
+                    </center>
+                </div>
+
             </div>
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
