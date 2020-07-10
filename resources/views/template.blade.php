@@ -223,6 +223,18 @@
             /*border-radius: 0rem !important;*/
         }
 
+        .negro {
+            color: #000 !important;
+        }
+
+        .blanco {
+            color: #ffff !important;
+        }
+
+        .rojo {
+            color: #c10000 !important;
+        }
+
     </style>
 </head>
 
@@ -256,8 +268,8 @@
         <div class="content flex">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
-                    <span style="color: #000">&copy; Copyright 2020</span>
-                    <span style="color: #c10000">Todos los derechos reservados.</span>
+                    <span class="negro">&copy; Copyright 2020</span>
+                    <span class="rojo">Todos los derechos reservados.</span>
                 </div>
             </div>
     </footer>

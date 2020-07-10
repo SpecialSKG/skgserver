@@ -1,5 +1,5 @@
 @extends('template')
-@section('titulo', 'Acerca de')
+@section('titulo', 'Nosotros')
 @section('body')
 
 <div class="row">
@@ -7,12 +7,12 @@
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li><a href="{{ route('inicio') }}">Inicio</a></li>
-                <li class="active"><a href="{{ route('acerca') }}">Acerca de</a></li>
-                <li><a href="{{ route('novedades') }}">Novedades</a></li>
-                <li><a href="{{ route('servicios') }}">Servicios</a></li>
-                <li><a href="{{ route('portafolio') }}">Portafolio</a></li>
-                <li><a href="{{ route('contacto') }}">Contacto</a></li>
+                <li><a class="negro" href="{{ route('inicio') }}">Inicio</a></li>
+                <li class="active"><a class="negro" href="{{ route('acerca') }}">Acerca de</a></li>
+                <li><a class="negro" href="{{ route('novedades') }}">Novedades</a></li>
+                <li><a class="negro" href="{{ route('servicios') }}">Servicios</a></li>
+                <li><a class="negro" href="{{ route('portafolio') }}">Portafolio</a></li>
+                <li><a class="negro" href="{{ route('contacto') }}">Contacto</a></li>
             </ul>
         </nav>
 
@@ -312,7 +312,7 @@
                     <!--<img src="{{ URL::asset('img/testimonials/testimonials-2.jpg') }}"-->
                     <img src="https://minotar.net/avatar/RodriSKG.png" class="testimonial-img" alt="">
                     <h3>Rodri SKG</h3>
-                    <h4>Designer</h4>
+                    <h4>Ceo &amp; Designer</h4>
                 </div>
 
                 <div class="testimonial-item">

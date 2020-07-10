@@ -18,7 +18,7 @@ body {
 body::before {
     content: "";
     position: fixed;
-    background: #040404 url("../img/mountains.jpg") top right no-repeat;
+    background: #040404 url("../img/AdobeStock_210651242.jpeg") top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
@@ -504,8 +504,7 @@ section .container {
     /*display: flex;
     align-items: center;*/
     text-align: center;
-    padding: 20px;
-    /*background: rgba(255, 255, 255, 0.08);*/
+    padding: 30px;
     transition: ease-in-out 0.3s;
 }
 
