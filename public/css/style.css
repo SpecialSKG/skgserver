@@ -232,9 +232,10 @@ h6 {
     transition: ease-in-out 0.2s;
     opacity: 0;
     visibility: hidden;
-    border-radius: 25px;
+    border-radius: 25px !important;
     padding: 15px 0;
     border: 2px solid rgba(255, 255, 255, 0.12);
+    text-align: center !important;
 }
 
 .mobile-nav * {
