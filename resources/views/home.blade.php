@@ -1,5 +1,5 @@
 @extends('template')
-@section('titulo', 'Inicio')
+@section('titulo', 'SKG')
 @section('body')
 
 <!-- ======= Header ======= -->
@@ -10,8 +10,11 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <span>
             <img src="{{ URL::asset('img/SKG-LOGO-PNG2.png') }}" alt="Logo" width="200" height="125">
-
-            <h2>Una comunidad con el unico <span>objetivo</span> del poder pasarla bien</h2>
+            <p>
+                <h2>Una comunidad con el unico
+                    <span>objetivo</span> de pasarla bien entre amigos.
+                </h2>
+            </p>
         </span>
 
         <nav class="nav-menu d-none d-lg-block">

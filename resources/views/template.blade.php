@@ -258,18 +258,18 @@
                         d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                 </defs>
                 <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
                     <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
                     <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
                 </g>
             </svg>
         </div>
 
-        <div class="content flex">
+        <div class="content flex" style="background-color: rgba(255,255,255,0.9);">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
                     <span class="negro">&copy; Copyright 2020</span>
-                    <span class="rojo">Todos los derechos reservados.</span>
+                    <p class="rojo">Todos los derechos reservados.</p>
                 </div>
             </div>
     </footer>
@@ -287,6 +287,7 @@
 
     <!-- Template Main JS File -->
     <script src="{{ asset('js/main.js')}}"></script>
+
 </body>
 
 </html>
