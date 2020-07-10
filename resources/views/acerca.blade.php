@@ -40,9 +40,18 @@
                 <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left"> -->
                 <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
                     <h3>SkyGround Team</h3>
+                    <br><br>
                     <p class="font-italic">
-                        Un grupo de amigos que decidio dar un paso mas alla y poco a poco se fue formando una comunidad
-                        con miembros de diferentes paises.
+                        Somos un grupo de amigos que decidió dar un paso más y comenzar un proyecto que poco a poco se
+                        fue formando una comunidad con miembros de diferentes países.
+                    </p>
+                    <p class="font-italic">
+                        Evoluciono de un servidor anterior de MC y poco a poco fue tomando su propia forma, haciendo que
+                        crezca de manera progresiva y nosotros mejorando los aspectos en la forma que podemos.
+                    </p>
+                    <p class="font-italic">
+                        Investigando para mejorar y nosotros también ser parte de la mejora, ya que somos dueños, pero
+                        también somos jugadores.
                     </p>
                     <!--
                     <div class="row">
@@ -66,11 +75,7 @@
                         </div>
                     </div>
                     -->
-                    <p>
-                        Evoluciono de un servidor anterior de MC y poco a poco fue tomando forma y haciendo que cresca
-                        de manera
-                        progresiva mejorando los aspectos en la forma que podamos.
-                    </p>
+
                 </div>
             </div>
 

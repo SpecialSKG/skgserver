@@ -13,8 +13,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{  URL::asset('img/SKG-LOGO-PNG2.png') }}" rel="icon">
-    <link href="{{  URL::asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <link href="{{  URL::asset('img/128x128-PNG-ICONO-SKG.png') }}" rel="icon">
 
     <!-- Google Fonts -->
     <link
