@@ -17,13 +17,14 @@ body {
 
 body::before {
     content: "";
-    position: fixed;
-    background: #040404 url("../img/FONDO-WEB-1.JPG") top right no-repeat;
+    position: absolute;
+    background: #292929 url("../img/FONDO-WEB-1.jpg") top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
     top: 0;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 @media (min-width: 1024px) {
@@ -37,7 +38,7 @@ a {
 }
 
 a:hover {
-    color: #35e888;
+    color: #288799;
     text-decoration: none;
 }
 
@@ -380,7 +381,7 @@ section .container {
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #4ceb95;
+    background: #288799;
     margin: 4px 10px;
 }
 
@@ -746,7 +747,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-    background: #35e888;
+    background: #288799;
 }
 
 .services .icon-box:hover h4 a,
@@ -887,7 +888,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-    color: #63eda3;
+    color: #288799;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1079,7 +1080,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-    background: #15bb62;
+    background: #288799;
 }
 
 @-webkit-keyframes animate-loading {
