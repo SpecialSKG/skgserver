@@ -235,6 +235,10 @@
             color: #c10000 !important;
         }
 
+        .activo{
+            color: #18d26e !important;
+        }
+
     </style>
 </head>
 

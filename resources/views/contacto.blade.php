@@ -2,22 +2,7 @@
 @section('titulo', 'Contacto')
 @section('body')
 
-<div class="row">
-    <div class="container">
-
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
-                <li><a class="negro" href="{{ route('inicio') }}">Inicio</a></li>
-                <li><a class="negro" href="{{ route('acerca') }}">Acerca de</a></li>
-                <li><a class="negro" href="{{ route('novedades') }}">Novedades</a></li>
-                <li><a class="negro" href="{{ route('servicios') }}">Servicios</a></li>
-                <li><a class="negro" href="{{ route('portafolio') }}">Portafolio</a></li>
-                <li class="active"><a class="negro" href="{{ route('contacto') }}">Contacto</a></li>
-            </ul>
-        </nav>
-
-    </div>
-</div>
+@include('Menu.nav')
 <br><br>
 
 <div class="card bg-transparent" style="border: 0px">

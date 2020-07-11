@@ -17,16 +17,7 @@
             </p>
         </span>
 
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
-                <li class="active"><a class="negro" href="{{ route('inicio') }}">Inicio</a></li>
-                <li><a class="negro" href="{{ route('acerca') }}">Acerca de</a></li>
-                <li><a class="negro" href="{{ route('novedades') }}">Novedades</a></li>
-                <li><a class="negro" href="{{ route('servicios') }}">Servicios</a></li>
-                <li><a class="negro" href="{{ route('portafolio') }}">Portafolio</a></li>
-                <li><a class="negro" href="{{ route('contacto') }}">Contacto</a></li>
-            </ul>
-        </nav><!-- .nav-menu -->
+        @include('Menu.nav')
 
         <!--<div class="social-links">
             <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
