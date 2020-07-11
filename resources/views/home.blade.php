@@ -9,7 +9,7 @@
         <!--<h1><a href="index.html">SKG</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
         <span>
-            <img src="{{ URL::asset('img/SKG-LOGO-PNG2.png') }}" alt="Logo" width="200" height="125">
+            <img src="{{ URL::asset('img/PNG-LOGO.png') }}" alt="Logo" width="250" height="250">
             <p>
                 <h2>Una comunidad con el unico
                     <span>objetivo</span> de pasarla bien entre amigos.

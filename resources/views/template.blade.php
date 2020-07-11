@@ -16,9 +16,12 @@
     <link href="{{  URL::asset('img/128x128-PNG-ICONO-SKG.png') }}" rel="icon">
 
     <!-- Google Fonts -->
-    <link
+    <!--<link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+        rel="stylesheet">-->
+
+    <link href="//db.onlinewebfonts.com/c/f60a8c66a7769db837af63d5d4181a73?family=adineue+PRO+KZ+Light" rel="stylesheet"
+        type="text/css" />
 
     <!-- Vendor CSS Files -->
     <link href="{{  URL::asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -235,8 +238,8 @@
             color: #c10000 !important;
         }
 
-        .activo{
-            color: #18d26e !important;
+        .activo {
+            color: #288799 !important;
         }
 
     </style>
