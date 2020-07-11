@@ -8,8 +8,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-/*@import url(//db.onlinewebfonts.com/c/f60a8c66a7769db837af63d5d4181a73?family=adineue+PRO+KZ+Light);*/
-
 body {
     font-family: "Open Sans", sans-serif;
     color: #fff;
@@ -889,7 +887,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-    color: #288799;
+    color: #63eda3;
 }
 
 .portfolio .portfolio-wrap:hover::before {
