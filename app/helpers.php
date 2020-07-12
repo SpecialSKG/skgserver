@@ -7,5 +7,5 @@ function setActiveLine($routeName)
 
 function setActiveColor($routeName)
 {
-    return request()->routeIs($routeName) ? 'activo' : 'negro';
+    return request()->routeIs($routeName) ? 'activo' : 'blanco';
 }
