@@ -18,6 +18,25 @@
             <div class="row">
                 <div class="col align-self-center">
 
+                    <h3 class="resume-title">Mantenimiento</h3>
+                    <div class="resume-item">
+                        <h4>Servidor en Mantenimiento</h4>
+                        <h5>05/07/2020</h5>
+                        <p>
+                            Nos tomaremos el tiempo para poder realizar todas las pruebas,
+                            por eso el tiempo de 2 semanas, también estas como la cuarentena quien sabe y se extienda.
+                        </p>
+                    </div>
+
+                    <h3 class="resume-title">Resultados</h3>
+                    <div class="resume-item">
+                        <h4>Resultados de la votacion.</h4>
+                        <h5>04/07/2020</h5>
+                        <p>
+                            La votacion fue arrasadora con la opcion numero 3, de esa manera se “intentará” llevar acabo.
+                        </p>
+                    </div>
+
                     <h3 class="resume-title">Votacion</h3>
                     <div class="resume-item pb-0">
                         <h4>A que version se mudara</h4>
@@ -34,26 +53,8 @@
                             </ul>
                         </p>
                     </div>
-
-                    <h3 class="resume-title">Resultados</h3>
-                    <div class="resume-item">
-                        <h4>Resultados de la votacion.</h4>
-                        <h5>04/07/2020</h5>
-                        <p>
-                            La votacion fue arrasadora con la opcion numero 3, de esa manera se “intentará” llevar acabo.
-                        </p>
-                    </div>
-
-                    <h3 class="resume-title">Mantenimiento</h3>
-                    <div class="resume-item">
-                        <h4>Servidor en Mantenimiento</h4>
-                        <h5>05/07/2020</h5>
-                        <p>
-                            Nos tomaremos el tiempo para poder realizar todas las pruebas,
-                            por eso el tiempo de 2 semanas, también estas como la cuarentena quien sabe y se extienda.
-                        </p>
-                    </div>
                 </div>
+
                 <!--
                 <div class="col-lg-6">
                     <h3 class="resume-title">Professional Experience</h3>
