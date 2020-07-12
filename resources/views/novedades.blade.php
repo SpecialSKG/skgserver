@@ -16,34 +16,45 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-6">
-                    <h3 class="resume-title">Sumary</h3>
+                <div class="col align-self-center">
+
+                    <h3 class="resume-title">Votacion</h3>
                     <div class="resume-item pb-0">
-                        <h4>Alice Barkley</h4>
-                        <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                        <h4>A que version se mudara</h4>
+                        <h5>29/06/2020</h5>
+                        <p>
+                            Consulta ala comunidad aque version trasladar el servidor de Minecraft,
+                            Actualmente en la version 1.15.2
+                        </p>
                         <p>
                             <ul>
-                                <li>Portland par 127,Orlando, FL</li>
-                                <li>(123) 456-7891</li>
-                                <li>alice.barkley@example.com</li>
+                                <li>Regresar a la versión 1.14.4</li>
+                                <li>Mantenernos en la versión 1.15.2</li>
+                                <li>Intentar migrar ala 1.16, pero VANILLA y progresivamente incluyendo plugin.</li>
                             </ul>
                         </p>
                     </div>
 
-                    <h3 class="resume-title">Education</h3>
+                    <h3 class="resume-title">Resultados</h3>
                     <div class="resume-item">
-                        <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                        <h5>2015 - 2016</h5>
-                        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                        <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                        <h4>Resultados de la votacion.</h4>
+                        <h5>04/07/2020</h5>
+                        <p>
+                            La votacion fue arrasadora con la opcion numero 3, de esa manera se “intentará” llevar acabo.
+                        </p>
                     </div>
+
+                    <h3 class="resume-title">Mantenimiento</h3>
                     <div class="resume-item">
-                        <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                        <h5>2010 - 2014</h5>
-                        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                        <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                        <h4>Servidor en Mantenimiento</h4>
+                        <h5>05/07/2020</h5>
+                        <p>
+                            Nos tomaremos el tiempo para poder realizar todas las pruebas,
+                            por eso el tiempo de 2 semanas, también estas como la cuarentena quien sabe y se extienda.
+                        </p>
                     </div>
                 </div>
+                <!--
                 <div class="col-lg-6">
                     <h3 class="resume-title">Professional Experience</h3>
                     <div class="resume-item">
@@ -73,6 +84,7 @@
                         </p>
                     </div>
                 </div>
+            -->
             </div>
 
         </div>
