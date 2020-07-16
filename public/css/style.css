@@ -18,7 +18,7 @@ body {
 body::before {
     content: "";
     position: absolute;
-    background: #292929 url("../img/fondoskg.jpg")  top right no-repeat;
+    background: #292929 url("../img/FONDO-WEB-1.1.jpg")  top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;

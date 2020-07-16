@@ -1,0 +1,104 @@
+*, *:before, *:after {
+    margin: 0 ;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_loader {
+    background-color: #292929;
+    position: fixed ;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    transition: all 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader,
+.loader:before,
+.loader:after{
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    animation: Loader 1.5s infinite ease-in-out;
+}
+
+.loader{
+    color: #288799;
+    font-size: 20px;
+    position: relative;
+    animation-delay: -0.16s;
+}
+
+.loader:before,
+.loader:after{
+    content: '';
+    position: absolute;
+    top: 0;
+}
+
+.loader:before{
+    left: -3.5em;
+    animation-delay: -0.32s;
+}
+.loader:after{
+    left: 3.5rem;
+}
+
+@keyframes Loader{
+    0%,
+    80%,
+    100%{
+        box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40%{
+        box-shadow: 0 2.5em 0 0;
+    }
+}
+
+
+#ir_arriba_boton{
+    position: fixed;
+    z-index: 1000;
+    right: 25px;
+    bottom: 25px;
+    background-color: #288799;
+
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .2s;
+    font-size: medium;
+}
+
+#ir_arriba_boton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.indicador_contenedor{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 7px;
+    z-index: 1001;
+}
+
+.indicador_scroll{
+    height: 100%;
+    width: 0;
+    background-color: #288799;
+}
+
+.ocultar{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mostrar{
+    opacity: 1;
+    visibility: visible;
+}

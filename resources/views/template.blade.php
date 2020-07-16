@@ -23,8 +23,11 @@
     <!--<link href="//db.onlinewebfonts.com/c/f60a8c66a7769db837af63d5d4181a73?family=adineue+PRO+KZ+Light" rel="stylesheet"
         type="text/css" />-->
 
+    <link href="{{  URL::asset('css/mdb.css') }}" rel="stylesheet">
+    <link href="{{  URL::asset('css/bootstrap.css') }}" rel="stylesheet">
+
     <!-- Vendor CSS Files -->
-    <link href="{{  URL::asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
     <link href="{{  URL::asset('vendor/icofont/icofont.min.css') }}" rel="stylesheet">
     <link href="{{  URL::asset('vendor/remixicon/remixicon.css') }}" rel="stylesheet">
     <link href="{{  URL::asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
@@ -33,6 +36,7 @@
 
     <!-- Template Main CSS File -->
     <link href="{{  URL::asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{  URL::asset('css/loading.css') }}" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -56,6 +60,19 @@
 </head>
 
 <body>
+
+    <div class="contenedor_loader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="indicador_contenedor">
+        <div class="indicador_scroll"></div>
+    </div>
+
+    <div id="ir_arriba_boton" class="ocultar">
+        <i class="icofont-swoosh-up icofont-3x"></i>
+    </div>
+
     @yield('body')section
 
     <!--<div class="credits"> -->
@@ -70,7 +87,9 @@
 
     <!-- Vendor JS Files -->
     <script src="{{ URL::asset('vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{ URL::asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+    <!--<script src="{{ URL::asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>-->
+
     <script src="{{ URL::asset('vendor/jquery.easing/jquery.easing.min.js')}}"></script>
     <script src="{{ URL::asset('vendor/php-email-form/validate.js')}}"></script>
     <script src="{{ URL::asset('vendor/waypoints/jquery.waypoints.min.js')}}"></script>
@@ -80,7 +99,11 @@
     <script src="{{ URL::asset('vendor/venobox/venobox.min.js')}}"></script>
 
     <!-- Template Main JS File -->
-    <script src="{{ asset('js/main.js')}}"></script>
+    <script src="{{ URL::asset('js/bootstrap.js')}}"></script>
+
+    <script src="{{ URL::asset('js/main.js')}}"></script>
+    <script src="{{ URL::asset('js/loading.js')}}"></script>
+    <script src="{{ URL::asset('js/mdb.js')}}"></script>
 
 </body>
 

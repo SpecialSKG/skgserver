@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('prox');
 })->name('inicio');
 
 Route::get('/acerca','acercaCtrl@index')->name('acerca');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/skg', 'HomeController@index')->name('skg');
 
 Route::get('/novedades','novedadesCtrl@index')->name('novedades');
 

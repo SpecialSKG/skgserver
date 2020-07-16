@@ -3,8 +3,8 @@
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li class="{{ setActiveLine('inicio') }}">
-                    <a class="{{ setActiveColor('inicio') }}" href="{{ route('inicio') }}">
+                <li class="{{ setActiveLine('skg') }}">
+                    <a class="{{ setActiveColor('skg') }}" href="{{ route('skg') }}">
                         Inicio
                     </a>
                 </li>

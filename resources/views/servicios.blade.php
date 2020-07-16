@@ -1,18 +1,82 @@
 @extends('template')
-@section('titulo', 'Servicios')
+@section('titulo', 'Servidor')
 @section('body')
 
 @include('Menu.nav')
 <br><br>
 
-<div class="card bg-transparent" style="border: 0px">
+<div class="card bg-transparent z-depth-0" style="border: 0px">
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
         <div class="container">
 
             <div class="section-title">
-                <h2>Servicios</h2>
-                <p>Nuestros Servicios</p>
+                <h2>Server</h2>
+                <p>Nuestro Servidor</p>
+            </div>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg"
+                            alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg"
+                            alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
+                </div>
+
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
+                </div>
+
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left"> -->
+                <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
+                    <h3>SkyGround Team</h3>
+                    <br>
+                    <p class="font-italic">
+                        Somos un grupo de amigos que decidió dar un paso más y comenzar un proyecto que poco a poco se
+                        fue formando una comunidad con miembros de diferentes países.
+                    </p>
+                    <p class="font-italic">
+                        Evoluciono de un servidor anterior de MC y poco a poco fue tomando su propia forma, haciendo que
+                        crezca de manera progresiva y nosotros mejorando los aspectos en la forma que podemos.
+                    </p>
+                    <p class="font-italic">
+                        Investigando para mejorar y nosotros también ser parte de la mejora, ya que somos dueños, pero
+                        también somos jugadores.
+                    </p>
+
+                </div>
             </div>
 
             <div class="row">
