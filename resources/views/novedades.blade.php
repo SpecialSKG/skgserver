@@ -23,27 +23,25 @@
                         <h4>Servidor en Mantenimiento</h4>
                         <h5>05/07/2020</h5>
                         <p>
-                            Nos tomaremos el tiempo para poder realizar todas las pruebas,
-                            por eso el tiempo de 2 semanas, también estas como la cuarentena quien sabe y se extienda.
+                            Nos tomaremos el tiempo para poder realizar todas las pruebas, por eso el tiempo de 2 semanas, también estas como la cuarentena quien sabe y se extienda.
                         </p>
                     </div>
 
                     <h3 class="resume-title">Resultados</h3>
                     <div class="resume-item">
-                        <h4>Resultados de la votacion.</h4>
+                        <h4>Resultados de la votación.</h4>
                         <h5>04/07/2020</h5>
                         <p>
-                            La votacion fue arrasadora con la opcion numero 3, de esa manera se “intentará” llevar acabo.
+                            La votación fue arrasadora con la opción número 3, de esa manera se “intentará” llevar acabo.
                         </p>
                     </div>
 
-                    <h3 class="resume-title">Votacion</h3>
+                    <h3 class="resume-title">Votación</h3>
                     <div class="resume-item pb-0">
-                        <h4>A que version se mudara</h4>
+                        <h4>A que versión se mudara</h4>
                         <h5>29/06/2020</h5>
                         <p>
-                            Consulta ala comunidad aque version trasladar el servidor de Minecraft,
-                            Actualmente en la version 1.15.2
+                            Consulta a la comunidad a que versión trasladar el servidor de Minecraft, Actualmente en la versión 1.15.2.
                         </p>
                         <p>
                             <ul>
