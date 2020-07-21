@@ -18,49 +18,6 @@
                 <p>Nosotros</p>
             </div>
 
-            <br>
-
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-                            alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg"
-                            alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg"
-                            alt="Third slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <br>
-
-            <div class="row">
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
-                </div>
-
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
-                </div>
-
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
-                </div>
-            </div>
-
             <div class="row">
                 <div class="col-lg-4" data-aos="fade-right">
                     <img src="{{ URL::asset('img/SKG-LOGO.jpg') }}" class="img-fluid" alt="">

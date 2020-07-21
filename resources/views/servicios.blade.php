@@ -15,108 +15,104 @@
                 <p>Nuestro Servidor</p>
             </div>
 
-
-
-            <br>
-
-            <div class="contenedor">
-                <div class="carta">
-                    <div class="carta-encabezado">
-                        <img src="{{ URL::asset('img/oro.jpg') }}" alt="">
-                    </div>
-                    <div class="carta-iconos">
-                        <li class="agrandar"><a href=""><span class="icofont-ui-chat"></span></a></li>
-                        <li class="agrandar"><a href=""><span class="icofont-ui-flash-light"></span></a></li>
-                        <li class="agrandar"><a href=""><span class="icofont-ui-game"></span></a></li>
-                    </div>
-
-                    <div class="carta-contenido">
-                        <div class="info-personal desplazar">
-                            RANGO ORO
-                        </div>
-                        <div class="info-personal desplazar">
-                            El Salvador
-                        </div>
-                        <div class="info-personal desplazar">
-                            <p>Programador</p>
-                        </div>
-                    </div>
-
-                    <div class="carta-aciones">
-                        <button class="botones agrandar">
-                            <span class="icofont-ui-email">Enviar corrreo</span>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="carta">
-                    <div class="carta-encabezado">
-                        <img src="{{ URL::asset('img/SKG-LOGO.jpg') }}" alt="">
-                    </div>
-                    <div class="carta-iconos">
-                        <li class="agrandar"><a href=""><span class="icofont-ui-chat"></span></a></li>
-                        <li class="agrandar"><a href=""><span class="icofont-ui-flash-light"></span></a></li>
-                        <li class="agrandar"><a href=""><span class="icofont-ui-game"></span></a></li>
-                    </div>
-
-                    <div class="carta-contenido">
-                        <div class="info-personal desplazar">
-                            Jose Alvaro
-                        </div>
-                        <div class="info-personal desplazar">
-                            El Salvador
-                        </div>
-                        <div class="info-personal desplazar">
-                            <p>Programador</p>
-                        </div>
-                    </div>
-
-                    <div class="carta-aciones">
-                        <button class="botones agrandar">
-                            <span class="icofont-ui-email">Enviar corrreo</span>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="carta">
-                    <div class="carta-encabezado">
-                        <img src="{{ URL::asset('img/diamante.jpg') }}" alt="">
-                    </div>
-                    <div class="carta-iconos">
-                        <li class="agrandar"><a href=""><span class="icofont-ui-chat"></span></a></li>
-                        <li class="agrandar"><a href=""><span class="icofont-ui-flash-light"></span></a></li>
-                        <li class="agrandar"><a href=""><span class="icofont-ui-game"></span></a></li>
-                    </div>
-
-                    <div class="carta-contenido">
-                        <div class="info-personal desplazar">
-                            RANGO DIAMANTE
-                        </div>
-                        <div class="info-personal desplazar">
-                            El Salvador
-                        </div>
-                        <div class="info-personal desplazar">
-                            <p>Programador</p>
-                        </div>
-                    </div>
-
-                    <div class="carta-aciones">
-                        <button class="botones agrandar">
-                            <span class="icofont-ui-email">Enviar corrreo</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-
-
             <br>
 
             <div class="row">
                 <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left"> -->
-                <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
+                <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-left">
                     <h3>SkyGround Team</h3>
+
+                    <div class="contenedor">
+                        <div class="carta">
+                            <div class="carta-encabezado">
+                                <img src="{{ URL::asset('img/oro.jpg') }}" alt="">
+                            </div>
+                            <div class="carta-iconos">
+                                <li class="agrandar"><a href=""><span class="icofont-ui-chat"></span></a></li>
+                                <li class="agrandar"><a href=""><span class="icofont-ui-flash-light"></span></a></li>
+                                <li class="agrandar"><a href=""><span class="icofont-ui-game"></span></a></li>
+                            </div>
+
+                            <div class="carta-contenido">
+                                <div class="info-personal desplazar">
+                                    RANGO ORO
+                                </div>
+                                <div class="info-personal desplazar">
+                                    El Salvador
+                                </div>
+                                <div class="info-personal desplazar">
+                                    <p>Programador</p>
+                                </div>
+                            </div>
+
+                            <div class="carta-aciones">
+                                <button class="botones agrandar">
+                                    <span class="icofont-ui-email">Enviar corrreo</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="carta">
+                            <div class="carta-encabezado">
+                                <img src="{{ URL::asset('img/SKG-LOGO.jpg') }}" alt="">
+                            </div>
+                            <div class="carta-iconos">
+                                <li class="agrandar"><a href=""><span class="icofont-ui-chat"></span></a></li>
+                                <li class="agrandar"><a href=""><span class="icofont-ui-flash-light"></span></a></li>
+                                <li class="agrandar"><a href=""><span class="icofont-ui-game"></span></a></li>
+                            </div>
+
+                            <div class="carta-contenido">
+                                <div class="info-personal desplazar">
+                                    Jose Alvaro
+                                </div>
+                                <div class="info-personal desplazar">
+                                    El Salvador
+                                </div>
+                                <div class="info-personal desplazar">
+                                    <p>Programador</p>
+                                </div>
+                            </div>
+
+                            <div class="carta-aciones">
+                                <button class="botones agrandar">
+                                    <span class="icofont-ui-email">Enviar corrreo</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="carta">
+                            <div class="carta-encabezado">
+                                <img src="{{ URL::asset('img/diamante.jpg') }}" alt="">
+                            </div>
+                            <div class="carta-iconos">
+                                <li class="agrandar"><a href=""><span class="icofont-ui-chat"></span></a></li>
+                                <li class="agrandar"><a href=""><span class="icofont-ui-flash-light"></span></a></li>
+                                <li class="agrandar"><a href=""><span class="icofont-ui-game"></span></a></li>
+                            </div>
+
+                            <div class="carta-contenido">
+                                <div class="info-personal desplazar">
+                                    RANGO DIAMANTE
+                                </div>
+                                <div class="info-personal desplazar">
+                                    El Salvador
+                                </div>
+                                <div class="info-personal desplazar">
+                                    <p>Programador</p>
+                                </div>
+                            </div>
+
+                            <div class="carta-aciones">
+                                <button class="botones agrandar">
+                                    <span class="icofont-ui-email">Enviar corrreo</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
                     <br>
+
                     <p class="font-italic">
                         Somos un grupo de amigos que decidió dar un paso más y comenzar un proyecto que poco a poco se
                         fue formando una comunidad con miembros de diferentes países.
@@ -129,6 +125,8 @@
                         Investigando para mejorar y nosotros también ser parte de la mejora, ya que somos dueños, pero
                         también somos jugadores.
                     </p>
+
+                    <br>
 
                 </div>
             </div>
@@ -183,6 +181,22 @@
                 </div>
 
             </div>
+
+            <br>
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
+                </div>
+
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
+                </div>
+
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+            <br>
 
         </div>
     </section>

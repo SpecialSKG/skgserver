@@ -15,6 +15,35 @@
                 <p>Contact Me</p>
             </div>
 
+            <br>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg"
+                            alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg"
+                            alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <br>
+
             <div class="row mt-2">
 
                 <div class="col-md-6 d-flex align-items-stretch">
@@ -57,7 +86,8 @@
                 <div class="col-md-6 mt-4 d-flex">
                     <center>
                         <div class="info-box">
-                            <iframe src="https://discordapp.com/widget?id=361994595653124097&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+                            <iframe src="https://discordapp.com/widget?id=361994595653124097&theme=dark" width="350"
+                                height="500" allowtransparency="true" frameborder="0"></iframe>
                         </div>
                     </center>
                 </div>
