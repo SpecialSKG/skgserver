@@ -15,46 +15,100 @@
                 <p>Nuestro Servidor</p>
             </div>
 
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-                            alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg"
-                            alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg"
-                            alt="Third slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
+
 
             <br>
 
-            <div class="row">
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
+            <div class="contenedor">
+                <div class="carta">
+                    <div class="carta-encabezado">
+                        <img src="{{ URL::asset('img/oro.jpg') }}" alt="">
+                    </div>
+                    <div class="carta-iconos">
+                        <li class="agrandar"><a href=""><span class="icofont-ui-chat"></span></a></li>
+                        <li class="agrandar"><a href=""><span class="icofont-ui-flash-light"></span></a></li>
+                        <li class="agrandar"><a href=""><span class="icofont-ui-game"></span></a></li>
+                    </div>
+
+                    <div class="carta-contenido">
+                        <div class="info-personal desplazar">
+                            RANGO ORO
+                        </div>
+                        <div class="info-personal desplazar">
+                            El Salvador
+                        </div>
+                        <div class="info-personal desplazar">
+                            <p>Programador</p>
+                        </div>
+                    </div>
+
+                    <div class="carta-aciones">
+                        <button class="botones agrandar">
+                            <span class="icofont-ui-email">Enviar corrreo</span>
+                        </button>
+                    </div>
                 </div>
 
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
+                <div class="carta">
+                    <div class="carta-encabezado">
+                        <img src="{{ URL::asset('img/SKG-LOGO.jpg') }}" alt="">
+                    </div>
+                    <div class="carta-iconos">
+                        <li class="agrandar"><a href=""><span class="icofont-ui-chat"></span></a></li>
+                        <li class="agrandar"><a href=""><span class="icofont-ui-flash-light"></span></a></li>
+                        <li class="agrandar"><a href=""><span class="icofont-ui-game"></span></a></li>
+                    </div>
+
+                    <div class="carta-contenido">
+                        <div class="info-personal desplazar">
+                            Jose Alvaro
+                        </div>
+                        <div class="info-personal desplazar">
+                            El Salvador
+                        </div>
+                        <div class="info-personal desplazar">
+                            <p>Programador</p>
+                        </div>
+                    </div>
+
+                    <div class="carta-aciones">
+                        <button class="botones agrandar">
+                            <span class="icofont-ui-email">Enviar corrreo</span>
+                        </button>
+                    </div>
                 </div>
 
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
+                <div class="carta">
+                    <div class="carta-encabezado">
+                        <img src="{{ URL::asset('img/diamante.jpg') }}" alt="">
+                    </div>
+                    <div class="carta-iconos">
+                        <li class="agrandar"><a href=""><span class="icofont-ui-chat"></span></a></li>
+                        <li class="agrandar"><a href=""><span class="icofont-ui-flash-light"></span></a></li>
+                        <li class="agrandar"><a href=""><span class="icofont-ui-game"></span></a></li>
+                    </div>
+
+                    <div class="carta-contenido">
+                        <div class="info-personal desplazar">
+                            RANGO DIAMANTE
+                        </div>
+                        <div class="info-personal desplazar">
+                            El Salvador
+                        </div>
+                        <div class="info-personal desplazar">
+                            <p>Programador</p>
+                        </div>
+                    </div>
+
+                    <div class="carta-aciones">
+                        <button class="botones agrandar">
+                            <span class="icofont-ui-email">Enviar corrreo</span>
+                        </button>
+                    </div>
                 </div>
             </div>
+
+
 
             <br>
 
