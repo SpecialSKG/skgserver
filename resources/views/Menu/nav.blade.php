@@ -23,13 +23,6 @@
                         Server
                     </a>
                 </li>
-            <!--
-                <li class="{{ setActiveLine('portafolio') }}">
-                    <a class="{{ setActiveColor('portafolio') }}" href="{{ route('portafolio') }}">
-                        Portafolio
-                    </a>
-                </li>
-            -->
                 <li class="{{ setActiveLine('Redes') }}">
                     <a class="{{ setActiveColor('Redes') }}" href="{{ route('Redes') }}">
                         Redes

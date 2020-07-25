@@ -21,10 +21,12 @@ Route::get('/', function () {
 Route::get('/Acerca','acercaCtrl@index')->name('Acerca');
 Auth::routes();
 
-Route::get('/skg', 'HomeController@index')->name('Skg');
+Route::get('/SKG', 'HomeController@index')->name('Skg');
 
 Route::get('/Novedades','novedadesCtrl@index')->name('Novedades');
 
 Route::get('/Server','serviciosCtrl@index')->name('Server');
 
 Route::get('/Redes','contactoCtrl@index')->name('Redes');
+
+Route::get('/portafolio','portafolioCtrl@index')->name('portafolio');
