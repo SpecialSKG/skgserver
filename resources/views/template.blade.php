@@ -82,6 +82,7 @@
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
     <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
     <!--</div> -->
+    <div id="fb-root"></div>
 
     @include('Menu.footer')
 
@@ -97,6 +98,8 @@
     <script src="{{ URL::asset('vendor/owl.carousel/owl.carousel.min.js')}}"></script>
     <script src="{{ URL::asset('vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
     <script src="{{ URL::asset('vendor/venobox/venobox.min.js')}}"></script>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v7.0" nonce="eb4wR0jD"></script>
 
     <!-- Template Main JS File -->
     <script src="{{ URL::asset('js/bootstrap.js')}}"></script>

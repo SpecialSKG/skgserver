@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
+/ Route::get('/portafolio','portafolioCtrl@index')->name('portafolio');
 */
 
 Route::get('/', function () {
@@ -26,6 +27,8 @@ Route::get('/novedades','novedadesCtrl@index')->name('novedades');
 
 Route::get('/servicios','serviciosCtrl@index')->name('servicios');
 
-Route::get('/portafolio','portafolioCtrl@index')->name('portafolio');
+Route::get('/prueba', function () {
+    return view('menu.prueba');
+})->name('portafolio');
 
 Route::get('/contacto','contactoCtrl@index')->name('contacto');

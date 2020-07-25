@@ -20,7 +20,7 @@
                 </li>
                 <li class="{{ setActiveLine('servicios') }}">
                     <a class="{{ setActiveColor('servicios') }}" href="{{ route('servicios') }}">
-                        Servicios
+                        Server
                     </a>
                 </li>
                 <li class="{{ setActiveLine('portafolio') }}">

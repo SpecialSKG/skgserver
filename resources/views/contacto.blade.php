@@ -45,6 +45,38 @@
             <br>
 
             <div class="row mt-2">
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <img src="{{ URL::asset('img/Face.png') }}" alt=""
+                            class="mx-auto d-block img-fluid z-depth-1">
+                </div>
+
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <div class="fb-page" data-href="https://www.facebook.com/LIVETeamSKG" data-tabs="timeline"
+                        data-width="" data-height="" data-small-header="false" data-adapt-container-width="false"
+                        data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/LIVETeamSKG" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/LIVETeamSKG">SKG Team</a></blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <center>
+                        <div class="info-box">
+                            <iframe src="https://discordapp.com/widget?id=361994595653124097&theme=dark" width="350"
+                                height="500" allowtransparency="true" frameborder="0"></iframe>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <img src="{{ URL::asset('img/Discord.png') }}" alt=""
+                            class="mx-auto d-block img-fluid z-depth-1">
+                </div>
+            </div>
+
+            <div class="row mt-2">
 
                 <div class="col-md-6 d-flex align-items-stretch">
                     <div class="info-box">
@@ -83,14 +115,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 mt-4 d-flex">
-                    <center>
-                        <div class="info-box">
-                            <iframe src="https://discordapp.com/widget?id=361994595653124097&theme=dark" width="350"
-                                height="500" allowtransparency="true" frameborder="0"></iframe>
-                        </div>
-                    </center>
-                </div>
+
 
             </div>
 
