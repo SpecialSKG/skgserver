@@ -18,17 +18,13 @@ Route::get('/', function () {
     return view('prox');
 })->name('inicio');
 
-Route::get('/acerca','acercaCtrl@index')->name('acerca');
+Route::get('/Acerca','acercaCtrl@index')->name('Acerca');
 Auth::routes();
 
-Route::get('/skg', 'HomeController@index')->name('skg');
+Route::get('/skg', 'HomeController@index')->name('Skg');
 
-Route::get('/novedades','novedadesCtrl@index')->name('novedades');
+Route::get('/Novedades','novedadesCtrl@index')->name('Novedades');
 
-Route::get('/servicios','serviciosCtrl@index')->name('servicios');
+Route::get('/Server','serviciosCtrl@index')->name('Server');
 
-Route::get('/prueba', function () {
-    return view('menu.prueba');
-})->name('portafolio');
-
-Route::get('/contacto','contactoCtrl@index')->name('contacto');
+Route::get('/Redes','contactoCtrl@index')->name('Redes');
