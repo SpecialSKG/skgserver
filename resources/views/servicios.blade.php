@@ -48,9 +48,10 @@
                 <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left"> -->
                 <div class="col-lg-8 pt-4 pt-lg-0 text-center" data-aos="fade-left">
                     <p class="font-italic">
-                        Sumérgete con nosotros en aquella experiencia Vanilla y poder explorar el mundo como el
-                        inframundo. Investigando nuevas estructuras y nuevos enemigos que estarán al asecho si no estas
-                        lo suficiente preparado te aran saltar de tu asiento.
+                        Sumérgete con nosotros en una experiencia Vanilla para poder disfrutar todo lo que ofrece
+                        esta versión. Investigando nuevas estructuras y nuevos enemigos que estarán al asecho si
+                        no estas lo suficientemente preparado te harán saltar de tu asiento, llama a tus amigos y vengan
+                        a jugar con nosotros.
                     </p>
                     <p class="font-italic">
                         Existen algunos rangos que puedes adquirir en este servidor, aclaramos que no es necesario tener
