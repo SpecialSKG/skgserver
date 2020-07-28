@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('prox');
+    return view('home');
 })->name('inicio');
 
 Route::get('/Acerca','acercaCtrl@index')->name('Acerca');

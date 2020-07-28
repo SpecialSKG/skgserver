@@ -9,7 +9,8 @@
         <!--<h1><a href="index.html">SKG</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
         <span>
-            <img src="{{ URL::asset('img/PNG-LOGO.png') }}" alt="Logo" width="250" height="250">
+            <img src="{{ URL::asset('img/PNG-LOGO.png') }}" alt="Logo" width="250" height="250"
+                class="animated rollIn delay-1s">
             <p>
                 <h2>Una comunidad con el unico
                     <span>objetivo</span> de pasarla bien entre amigos.
@@ -28,6 +29,21 @@
         </div> -->
 
     </div>
+    <br>
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="row mt-2">
+
+                <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+                    <div class="info-box">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 </header>
 <!-- End Header -->
 

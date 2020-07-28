@@ -20,7 +20,7 @@
 
             <div class="row">
                 <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/SKG-LOGO.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ URL::asset('img/SKG-LOGO.jpg') }}" class="img-fluid animated zoomInLeft delay-1s" alt="">
                 </div>
                 <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left"> -->
                 <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
@@ -31,7 +31,7 @@
                         fue formando una comunidad con miembros de diferentes países.
                     </p>
                     <p class="font-italic">
-                        Evoluciono de un servidor anterior de MC y poco a poco fue tomando su propia forma, haciendo que
+                        Evoluciono de un servidor anterior de MinecraftS y poco a poco fue tomando su propia forma, haciendo que
                         crezca de manera progresiva y nosotros mejorando los aspectos en la forma que podemos.
                     </p>
                     <p class="font-italic">
@@ -179,82 +179,7 @@
         </div>-->
         <!-- End Skills -->
 
-        <!-- ======= Interests ======= -->
-        <div class="interests container">
 
-            <div class="section-title">
-                <h2>Paises de miembros</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img src="{{ URL::asset('ico/unitedstates_flags_flag_9093.ico') }}" alt="">
-                        <h3>Estados Unidos</h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img src="{{ URL::asset('ico/Mexico_flags_flag_9191.ico') }}" alt="">
-                        <h3>Mexico</h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="icon-box align-center">
-                        <img src="{{ URL::asset('ico/Guatemala_flags_flag_9239.ico') }}" alt="">
-                        <h3>Guatemala</h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="icon-box align-center">
-                        <img src="{{ URL::asset('ico/ElSalvador_flags_flag_9267.ico') }}" alt="">
-                        <h3>El Salvador</h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4">
-                    <div class="icon-box align-center">
-                        <img src="{{ URL::asset('ico/Honduras_flags_flag_9235.ico') }}" alt="">
-                        <h3>Honduras</h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-                    <div class="icon-box">
-                        <img src="{{ URL::asset('ico/Colombia_flags_flag_9283.ico') }}" alt="">
-                        <h3>Colombia</h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-                    <div class="icon-box">
-                        <img src="{{ URL::asset('ico/Ecuador_flags_flag_9268.ico') }}" alt="">
-                        <h3>Ecuador</h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-                    <div class="icon-box">
-                        <img src="{{ URL::asset('ico/Bolivia_flags_flag_9306.ico') }}" alt="">
-                        <h3>Bolivia</h3>
-                    </div>
-                </div>
-
-                <!--
-                <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-                        <h3>Flavor Nivelanda</h3>
-                    </div>
-                </div>
-                -->
-            </div>
-
-        </div>
-        <!-- End Interests -->
 
         <!-- ======= Testimonials ======= -->
         <div class="testimonials container">

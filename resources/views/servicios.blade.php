@@ -18,19 +18,21 @@
             <div class="row justify-content-md-center">
                 <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left"> -->
                 <div class="col-lg-8 pt-4 pt-lg-0 text-center" data-aos="fade-left">
-                    <h3>SkyGround Team</h3>
 
                     <p class="font-italic">
-                        Somos un grupo de amigos que decidió dar un paso más y comenzar un proyecto que poco a poco se
-                        fue formando una comunidad con miembros de diferentes países.
+                        Este es un servidor dedicado para usuarios Premium/No Premium FREE. Con la última versión de
+                        Minecraft 1.16.1 para que te puedas unir a la comunidad.
+                    </p>
+                    <h3>IP: play.skgteam.net</h3>
+                    <p class="font-italic">
+                        Sumérgete con nosotros en aquella experiencia Vanilla y poder explorar el mundo como el
+                        inframundo. Investigando nuevas estructuras y nuevos enemigos que estarán al asecho si no estas
+                        lo suficiente preparado te aran saltar de tu asiento.
                     </p>
                     <p class="font-italic">
-                        Evoluciono de un servidor anterior de MC y poco a poco fue tomando su propia forma, haciendo que
-                        crezca de manera progresiva y nosotros mejorando los aspectos en la forma que podemos.
-                    </p>
-                    <p class="font-italic">
-                        Investigando para mejorar y nosotros también ser parte de la mejora, ya que somos dueños, pero
-                        también somos jugadores.
+                        Existen algunos rangos que puedes adquirir en este servidor, aclaramos que no es necesario tener
+                        alguno de ellos para poder jugar. Pero si, nos ayudaras para poder mantener el servidor y que
+                        sea renovado el próximo año.
                     </p>
                 </div>
             </div>
@@ -41,6 +43,8 @@
                 <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-left">
                     <div class="cuerpo">
                         <div class="contenedor">
+
+
                             <div class="carta">
                                 <div class="carta-encabezado">
                                     <img src="{{ URL::asset('img/coin.png') }}" alt="">
@@ -66,7 +70,7 @@
 
                                 <div class="carta-aciones">
                                     <button class="btn aqua-gradient btn-block btn-rounded" data-toggle="modal"
-                                        data-target="#Insertdepartamento">
+                                        data-target="#SKGCoin">
                                         <span class="icofont-ui-rate-add blanco">Sobre:</span>
                                     </button>
                                 </div>
@@ -86,19 +90,20 @@
 
                                 <div class="carta-contenido">
                                     <div class="info-personal desplazar">
-                                        RANGO ORO
+                                        Rango GOLD
                                     </div>
                                     <div class="info-personal desplazar">
-                                        El Salvador
+                                        Adquieres el primer rango
                                     </div>
                                     <div class="info-personal desplazar">
-                                        <p>Programador</p>
+                                        de nuestro servidor
                                     </div>
                                 </div>
 
                                 <div class="carta-aciones">
-                                    <button class="botones agrandar">
-                                        <span class="icofont-ui-email">Enviar corrreo</span>
+                                    <button class="btn aqua-gradient btn-block btn-rounded" data-toggle="modal"
+                                        data-target="#RangoGOLD">
+                                        <span class="icofont-ui-rate-add blanco">Sobre:</span>
                                     </button>
                                 </div>
                             </div>
@@ -117,19 +122,20 @@
 
                                 <div class="carta-contenido">
                                     <div class="info-personal desplazar">
-                                        RANGO DIAMANTE
+                                        Rango DIAMOND
                                     </div>
                                     <div class="info-personal desplazar">
-                                        El Salvador
+                                        Adquieres el segundo rango
                                     </div>
                                     <div class="info-personal desplazar">
-                                        <p>Programador</p>
+                                        de nuestro servidor
                                     </div>
                                 </div>
 
                                 <div class="carta-aciones">
-                                    <button class="botones agrandar">
-                                        <span class="icofont-ui-email">Enviar corrreo</span>
+                                    <button class="btn aqua-gradient btn-block btn-rounded" data-toggle="modal"
+                                        data-target="#RangoDIAMOND">
+                                        <span class="icofont-ui-rate-add blanco">Sobre:</span>
                                     </button>
                                 </div>
                             </div>
@@ -141,7 +147,7 @@
 
             <br>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bxl-dribbble"></i></div>
@@ -190,96 +196,103 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
 
-            <br>
-            <div class="row">
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
-                </div>
 
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
-                </div>
 
-                <div class="col-lg-4" data-aos="fade-right">
-                    <img src="{{ URL::asset('img/update1.16.1.jpg') }}" class="img-fluid" alt="Responsive image">
-                </div>
-            </div>
-            <br>
 
         </div>
     </section>
     <!-- End Services Section -->
+
+    <section id="about" class="about">
+        <!-- ======= Interests ======= -->
+        <div class="interests container">
+
+            <div class="section-title">
+                <h2>Paises de miembros</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="{{ URL::asset('ico/unitedstates_flags_flag_9093.ico') }}" alt="">
+                        <h3>Estados Unidos</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="{{ URL::asset('ico/Mexico_flags_flag_9191.ico') }}" alt="">
+                        <h3>Mexico</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box align-center">
+                        <img src="{{ URL::asset('ico/Guatemala_flags_flag_9239.ico') }}" alt="">
+                        <h3>Guatemala</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box align-center">
+                        <img src="{{ URL::asset('ico/ElSalvador_flags_flag_9267.ico') }}" alt="">
+                        <h3>El Salvador</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box align-center">
+                        <img src="{{ URL::asset('ico/Honduras_flags_flag_9235.ico') }}" alt="">
+                        <h3>Honduras</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                        <img src="{{ URL::asset('ico/Colombia_flags_flag_9283.ico') }}" alt="">
+                        <h3>Colombia</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                        <img src="{{ URL::asset('ico/Ecuador_flags_flag_9268.ico') }}" alt="">
+                        <h3>Ecuador</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                        <img src="{{ URL::asset('ico/Bolivia_flags_flag_9306.ico') }}" alt="">
+                        <h3>Bolivia</h3>
+                    </div>
+                </div>
+
+                <!--
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+                    <h3>Flavor Nivelanda</h3>
+                </div>
+            </div>
+            -->
+            </div>
+
+            <br>
+
+            <div class="row justify-content-md-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://youtu.be/UvK-NME5jqs"></iframe>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Interests -->
+    </section>
 </div>
 <br><br>
 
-<div class="modal fade" id="Insertdepartamento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog cascading-modal modal-dialog-centered" role="document">
-        <div class="modal-content">
-
-            <div class="modal-header blue-gradient white-text">
-                <span class="title h4 text-center"><i class="icofont-coins"></i>SKG Coins</span>
-
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-
-            <div class="modal-body mx-3">
-
-                <div class="row md-form mb-0">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-
-                        <img src="{{ URL::asset('img/coin.png') }}" alt=""
-                            class="mx-auto d-block img-fluid z-depth-1 rounded-circle">
-
-                    </div>
-                </div>
-
-                <div class="row md-form mb-0">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <i class="fas fa-address-card prefix grey-text"></i>
-
-                    </div>
-                </div>
-
-                <div class="row md-form mb-0">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
-                        Donacion + $50k
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
-                        Donacion para nuevo HOST +$50,000 SKG Coins! 1.69$ USD
-                    </div>
-                </div>
-
-                <div class="row md-form mb-0">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
-                        Donacion + $120k
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
-                        Donacion para nuevo HOST +$120,000 SKG Coins! 2.69$ USD
-                    </div>
-                </div>
-
-                <div class="row md-form mb-0">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
-                        Donacion + $500k
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
-                        Donacion para nuevo HOST +$500,000 SKG Coins! 6.69$ USD
-                    </div>
-                </div>
-
-                <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn mdb-color lighten-2 btn-rounded btn-lg blanco">Ir
-                        <i class="icofont-external-link"></i>
-                    </button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
+@include('Menu.servermodal')
 @endsection

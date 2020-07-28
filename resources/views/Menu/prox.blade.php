@@ -1,7 +1,7 @@
 <style>
     .bg {
         /* The image used */
-        background-image: url("img/inicio50.jpg");
+        background-image: url("img/inicio75.jpg");
 
         /* Full height */
         height: 125%;
