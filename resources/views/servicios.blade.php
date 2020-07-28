@@ -284,7 +284,7 @@
 
             <div class="row justify-content-md-center">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://youtu.be/UvK-NME5jqs"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=UvK-NME5jqs&feature=youtu.be"></iframe>
                 </div>
             </div>
 
