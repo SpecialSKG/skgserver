@@ -18,6 +18,15 @@
             <div class="row">
                 <div class="col align-self-center">
 
+                    <h3 class="resume-title">Apertura</h3>
+                    <div class="resume-item">
+                        <h4>Nueva Temporada</h4>
+                        <h5>28/07/2020</h5>
+                        <p>
+                            El servidor inicia en una nueva version 1.16.1, podras encontrar la IP en el apartado Server.
+                        </p>
+                    </div>
+
                     <h3 class="resume-title">Mantenimiento</h3>
                     <div class="resume-item">
                         <h4>Servidor en Mantenimiento</h4>
