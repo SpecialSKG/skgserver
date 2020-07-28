@@ -30,20 +30,7 @@
 
     </div>
     <br>
-    <section id="contact" class="contact">
-        <div class="container">
 
-            <div class="row mt-2">
-
-                <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-                    <div class="info-box">
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
 </header>
 <!-- End Header -->
 
