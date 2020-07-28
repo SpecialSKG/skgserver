@@ -15,15 +15,38 @@
                 <p>SKG Network</p>
             </div>
 
+            <br>
+
+
+
             <div class="row justify-content-md-center">
                 <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left"> -->
                 <div class="col-lg-8 pt-4 pt-lg-0 text-center" data-aos="fade-left">
 
+                    <!-- Trigger -->
                     <p class="font-italic">
-                        Este es un servidor dedicado para usuarios Premium/No Premium FREE. Con la última versión de
+                        Este es un servidor dedicado para usuarios Premium/No Premium donde podras jugar FREE. Con la
+                        última versión de
                         Minecraft 1.16.1 para que te puedas unir a la comunidad.
                     </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 pt-4 pt-lg-0 text-center"></div>
+                <div class="col-lg-3 pt-4 pt-lg-0 text-center">
                     <h3>IP: play.skgteam.net</h3>
+                </div>
+                <div class="col-lg-3 pt-4 pt-lg-0 text-center">
+                    <button class="btn blue-gradient" data-clipboard-text="play.skgteam.net"><i
+                        class='icofont-connection icofont-1x'>Clic para Copiar</i></button>
+                </div>
+                <div class="col-lg-3 pt-4 pt-lg-0 text-center"></div>
+            </div>
+
+            <div class="row justify-content-md-center">
+                <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left"> -->
+                <div class="col-lg-8 pt-4 pt-lg-0 text-center" data-aos="fade-left">
                     <p class="font-italic">
                         Sumérgete con nosotros en aquella experiencia Vanilla y poder explorar el mundo como el
                         inframundo. Investigando nuevas estructuras y nuevos enemigos que estarán al asecho si no estas
@@ -38,6 +61,11 @@
             </div>
 
             <br>
+
+            <div class="section-title">
+                <h2>Informacion</h2>
+                <p>Rangos</p>
+            </div>
 
             <div class="row">
                 <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-left">
@@ -146,6 +174,14 @@
             </div>
 
             <br>
+
+            <div class="row justify-content-md-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UvK-NME5jqs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
 
             <!-- <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -282,13 +318,7 @@
 
             <br>
 
-            <div class="row justify-content-md-center">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UvK-NME5jqs" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
+
 
         </div>
         <!-- End Interests -->
@@ -296,5 +326,8 @@
 </div>
 <br><br>
 
+<script src="{{ URL::asset('js/clipboard.min.js')}}"></script>
+
 @include('Menu.servermodal')
+
 @endsection

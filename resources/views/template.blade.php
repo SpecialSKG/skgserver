@@ -108,6 +108,8 @@
     <script src="{{ URL::asset('js/loading.js')}}"></script>
     <script src="{{ URL::asset('js/mdb.js')}}"></script>
 
+
+
 </body>
 
 </html>
