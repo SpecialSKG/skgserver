@@ -106,7 +106,7 @@
                         Ahora tomas una parte muy importante en el desarrollo del servidor, gracias a ti ahora
                         potencialmente estamos mas cerca de tener un servidor mas estable!
                         <p>(Este rango solamente es valido hasta que el host expire. Feb.27.2021)</p>
-
+                        <p>4.99$ USD</p>
                     </div>
                 </div>
 
@@ -197,7 +197,7 @@
                         Ahora tomas una parte muy importante en el desarrollo del servidor, gracias a ti ahora
                         potencialmente estamos mas cerca de tener un servidor mas estable!
                         <p>(Este rango solamente es valido hasta que el host expire. Feb.27.2021)</p>
-
+                        <p>7.99$ USD</p>
                     </div>
                 </div>
 

@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-lg-3 pt-4 pt-lg-0 text-center">
                     <button class="btn blue-gradient" data-clipboard-text="play.skgteam.net"><i
-                        class='icofont-connection icofont-1x'>Clic para Copiar</i></button>
+                            class='icofont-connection icofont-1x'>Clic para Copiar</i></button>
                 </div>
                 <div class="col-lg-3 pt-4 pt-lg-0 text-center"></div>
             </div>
@@ -252,56 +252,56 @@
             <div class="row">
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                     <div class="icon-box">
-                        <img src="{{ URL::asset('ico/unitedstates_flags_flag_9093.ico') }}" alt="">
+                        <img src="{{ URL::asset('ico/unitedstates_flags_flag_9093.ico') }}" alt="" class="wow fadeInUp">
                         <h3>Estados Unidos</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                     <div class="icon-box">
-                        <img src="{{ URL::asset('ico/Mexico_flags_flag_9191.ico') }}" alt="">
+                        <img src="{{ URL::asset('ico/Mexico_flags_flag_9191.ico') }}" alt="" class="wow fadeInUp">
                         <h3>Mexico</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="icon-box align-center">
-                        <img src="{{ URL::asset('ico/Guatemala_flags_flag_9239.ico') }}" alt="">
+                        <img src="{{ URL::asset('ico/Guatemala_flags_flag_9239.ico') }}" alt="" class="wow fadeInUp">
                         <h3>Guatemala</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="icon-box align-center">
-                        <img src="{{ URL::asset('ico/ElSalvador_flags_flag_9267.ico') }}" alt="">
+                        <img src="{{ URL::asset('ico/ElSalvador_flags_flag_9267.ico') }}" alt="" class="wow fadeInUp">
                         <h3>El Salvador</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="icon-box align-center">
-                        <img src="{{ URL::asset('ico/Honduras_flags_flag_9235.ico') }}" alt="">
+                        <img src="{{ URL::asset('ico/Honduras_flags_flag_9235.ico') }}" alt="" class="wow fadeInUp">
                         <h3>Honduras</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
                     <div class="icon-box">
-                        <img src="{{ URL::asset('ico/Colombia_flags_flag_9283.ico') }}" alt="">
+                        <img src="{{ URL::asset('ico/Colombia_flags_flag_9283.ico') }}" alt="" class="wow fadeInUp">
                         <h3>Colombia</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
                     <div class="icon-box">
-                        <img src="{{ URL::asset('ico/Ecuador_flags_flag_9268.ico') }}" alt="">
+                        <img src="{{ URL::asset('ico/Ecuador_flags_flag_9268.ico') }}" alt="" class="wow fadeInUp">
                         <h3>Ecuador</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
                     <div class="icon-box">
-                        <img src="{{ URL::asset('ico/Bolivia_flags_flag_9306.ico') }}" alt="">
+                        <img src="{{ URL::asset('ico/Bolivia_flags_flag_9306.ico') }}" alt="" class="wow fadeInUp">
                         <h3>Bolivia</h3>
                     </div>
                 </div>
@@ -327,7 +327,6 @@
 <br><br>
 
 <script src="{{ URL::asset('js/clipboard.min.js')}}"></script>
-
 @include('Menu.servermodal')
 
 @endsection
